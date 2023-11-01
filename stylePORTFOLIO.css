@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Bebas";
+  src: url(bebas-neue-book.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0a0c0d;
+}
+nav :hover {
+  color: rgb(237, 237, 237);
+  text-decoration: none;
+}
+
+.navportfolio {
+  color: rgba(255, 255, 255, 0.946);
+}
+a {
+  color: rgba(102, 102, 102, 0.919);
+  text-decoration: none;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  font-family: "Bebas";
+  letter-spacing: 0.3rem;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 1.5rem;
+}
+.portfolio img {
+  max-width: 20rem;
+  max-height: auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.modal-body {
+  padding: 0rem;
+}
+
+/* Efeito blur nas fotos após serem abertas */
+body.modal-open .supreme-container {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1.5px);
+}
+.modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #ffffff00;
+  background-clip: padding-box;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.close {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  color: rgba(255, 255, 255, 0.581);
+}
+
+.close:hover {
+  color: rgb(255, 255, 255);
+}
+
+button.close {
+  padding: 5%;
+  background-color: transparent;
+  border: 0;
+}
+
+@media (max-width: 425px) {
+  .cabecalho {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .navportfolio {
+    display: none;
+  }
+}

@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Bebas";
+  src: url(bebas-neue-book.otf);
+}
+@font-face {
+  font-family: "akzidenz";
+  src: url(akzidenz-grotesk-bq-light-condensed.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(FotoABOUT/Fill\ 02.png);
+  background-repeat: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0a0c0d;
+}
+nav :hover {
+  color: rgb(237, 237, 237);
+}
+.navabout {
+  color: rgba(255, 255, 255, 0.946);
+}
+a {
+  color: rgba(102, 102, 102, 0.919);
+  text-decoration: none;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  font-family: "Bebas";
+  letter-spacing: 0.3rem;
+}
+
+main {
+  padding-top: 1.5rem;
+}
+
+.parentContainer {
+  position: relative;
+}
+.textoabout {
+  background-color: #00000015;
+  width: 15rem;
+  
+  text-align: justify;
+  font-family: "akzidenz";
+  letter-spacing: 0.1rem;
+  font-size: 1.1rem;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 13%;
+}
+
+
+@media (min-width:375px){
+  .textoabout{
+    width: 16rem;
+    font-size:1.4rem ;
+    top: 30%;
+    left: 16%;
+
+
+  }
+}
+@media (min-width:425px){
+  .textoabout{
+    width:18rem ;
+    font-size:1.5rem ;
+    top: 28%;
+    left:16% ;
+  }
+}
+@media (min-width:768px){
+  .textoabout{
+    width:20rem ;
+    font-size:1rem ;
+    top: 28%;
+    left:14%;
+  }
+}
+@media (min-width:1024px){
+  .textoabout{
+    width:30rem ;
+    font-size:1rem ;
+    top: 20%;
+    left:9% ;
+  }
+}
+@media (min-width:1440px){
+  .textoabout{
+    width:35rem ;
+    font-size:1.3rem ;
+    top: 23%;
+    left:9% ;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .navabout {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .cabecalho {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 2560px) {
+  .cabecalho {
+    font-size: 2rem;
+  }
+}
