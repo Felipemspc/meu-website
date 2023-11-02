@@ -182,13 +182,6 @@ form input[type="submit"] {
     display: none;
   }
 }
-@media (min-width:768px){
-    form{
-      
-      width: 25rem;
-      margin-left: 10rem;
-    }
-}
 @media (min-width: 1440px) {
   .cabecalho {
     font-size: 1.3rem;
