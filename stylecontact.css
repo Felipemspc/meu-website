@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
 
   background-color: #0a0c0d;
+  background-attachment: fixed;
 }
 nav :hover {
   color: rgb(237, 237, 237);
