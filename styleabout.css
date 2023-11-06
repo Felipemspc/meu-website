@@ -20,6 +20,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #040404;
+  background-attachment: fixed;
 }
 nav :hover {
   color: rgb(237, 237, 237);
@@ -51,7 +52,7 @@ main {
   position: relative;
 }
 .textoabout {
-  background-color: #00000015;
+  background-color: #00000009;
   width: 15rem;
 
   text-align: justify;
