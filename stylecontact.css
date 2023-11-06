@@ -16,8 +16,8 @@ body {
   background-image: url(FotoCONTATO/Fill\ 01.png);
   background-repeat: none;
   background-size: cover;
-  background-repeat:no-repeat;
-  
+  background-repeat: no-repeat;
+
   background-color: #0a0c0d;
 }
 nav :hover {
@@ -47,29 +47,25 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
-  
-  
 }
 .containerform {
   max-width: 1280px;
   margin: 0 auto;
-  
 }
 form {
   background-color: rgba(241, 241, 241, 0);
-  
+
   max-width: 31.2rem;
   height: 24.3rem;
-  
+
   border-radius: 0px;
-  
 }
 form h1 {
   text-align: center;
   font-size: 1.875rem;
   color: #ffffff;
   font-family: "Bebas";
-  
+
   font-weight: 500;
   letter-spacing: 0.5rem;
 }
@@ -93,7 +89,7 @@ form p {
   transition: all 0.2s;
   cursor: text;
 }
-label{
+label {
   color: white;
   font-family: "Bebas";
   letter-spacing: 0.1rem;
@@ -105,7 +101,7 @@ label{
   border: 0;
   border-bottom: 2px solid rgba(255, 255, 255, 0.921);
   padding: 5px;
-  
+
   font-size: 17px;
   outline: none;
   color: aliceblue;
@@ -117,8 +113,7 @@ form .input-single .input:valid ~ label {
   color: rgba(255, 255, 255, 0.746);
 }
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0 30px rgb(22, 21, 22)inset !important;
-  
+  -webkit-box-shadow: 0 0 0 30px rgb(22, 21, 22) inset !important;
 }
 input:-webkit-autofill {
   -webkit-text-fill-color: aliceblue !important;
@@ -128,10 +123,8 @@ input:-webkit-autofill {
   width: 100%;
   text-align: center;
 }
-section{
-  
-  margin-left:0;
- 
+section {
+  margin-left: 0;
 }
 form input[type="submit"] {
   padding: 10px 40px;
@@ -141,40 +134,35 @@ form input[type="submit"] {
   color: #ffffff;
   cursor: pointer;
 }
-@media (min-width:320px){
- 
-  body{
+@media (min-width: 320px) {
+  body {
     width: 100vw;
   }
-  main{
+  main {
     margin-top: 7rem;
     margin-left: 5rem;
   }
-} 
-@media (min-width:375px){
-  .containerform{
-    
+}
+@media (min-width: 375px) {
+  .containerform {
     margin-left: 1.5rem;
   }
-  body{
+  body {
     width: 100vw;
   }
-  
-}  
-@media(min-width:425px){
-  .containerform{
+}
+@media (min-width: 425px) {
+  .containerform {
     margin-top: 1rem;
     margin-left: 3rem;
-  } 
+  }
 }
 
-
-@media(max-width:768px){
-  body{
+@media (max-width: 768px) {
+  body {
     max-width: 100vw;
     height: 100vh;
   }
- 
 }
 
 @media (max-width: 767px) {
@@ -186,7 +174,7 @@ form input[type="submit"] {
   .cabecalho {
     font-size: 1.3rem;
   }
-  main{
+  main {
     margin-top: 8rem;
   }
 }
